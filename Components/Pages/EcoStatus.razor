@@ -1,0 +1,9 @@
+<div style="border: 2px solid green; margin: 15px; padding: 15px; border-radius: 10px; background-color: #f0fff0;">
+    <h3>@Titulo</h3>
+    <p>Impacto Ambiental: <strong>Peso @Peso</strong></p>
+</div>
+
+@code {
+    [Parameter] public string Titulo { get; set; } = "Atividade";
+    [Parameter] public int Peso { get; set; } = 0;
+}
